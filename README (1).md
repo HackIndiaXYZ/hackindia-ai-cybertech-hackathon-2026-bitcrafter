@@ -56,28 +56,20 @@ The exact setup depends on the code and model files included in your repository.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/<your-repository>.git
-   cd <your-repository>
+   
    ```
 
 2. (Recommended) Create and activate a virtual environment:
 
    **Windows**
    ```bash
-   python -m venv .venv
-   .venv\Scripts\activate
-   ```
-
-   **macOS / Linux**
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
+ 
+ 
 
 3. Install the dependencies listed in your project:
 
    ```bash
-   pip install -r requirements.txt
+   
    ```
 
    If your repository does not yet contain a `requirements.txt`, create one containing the packages your code actually uses before running this command.
@@ -87,10 +79,10 @@ The exact setup depends on the code and model files included in your repository.
 Run the entry-point script used by your repository. For example:
 
 ```bash
-python <your-entry-file>.py
+ 
 ```
 
-Replace `<your-entry-file>.py` with the actual script name. If the project uses a notebook, web app, or separate frontend/backend, follow the run instructions for that component instead.
+Replace  ` with the actual script name. If the project uses a notebook, web app, or separate frontend/backend, follow the run instructions for that component instead.
 
 ## 📂 Suggested Repository Structure
 
